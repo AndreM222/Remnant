@@ -1,0 +1,19 @@
+echo "Running build validation..."
+
+set -o pipefail
+
+xcodebuild \
+  -scheme Noir \
+  -destination 'platform=macOS' \
+  -configuration Debug \
+  CODE_SIGNING_ALLOWED=NO \
+  CODE_SIGNING_REQUIRED=NO \
+  CODE_SIGN_IDENTITY="" \
+  build | xcbeautify
+
+if [ $? -ne 0 ]; then
+  echo "Build failed. Push aborted."
+  exit 1
+fi
+
+echo "✅ Build passed. Pushing..."

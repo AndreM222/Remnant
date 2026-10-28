@@ -1,0 +1,29 @@
+echo "Running pre-commit checks..."
+
+# Format — auto-fix then stage changes
+echo "Checking formatting..."
+swiftformat .
+if [ $? -ne 0 ]; then
+    echo "❌ SwiftFormat failed."
+    exit 1
+fi
+# Stage any formatting fixes SwiftFormat made
+git add -A
+
+# Lint check
+echo "Running SwiftLint..."
+swiftlint
+if [ $? -ne 0 ]; then
+    echo "❌ SwiftLint check failed. Fix the violations above."
+    exit 1
+fi
+
+# Typos check
+echo "Checking for typos..."
+typos --config typos.toml
+if [ $? -ne 0 ]; then
+    echo "❌ Typos found. Fix them or add exceptions to typos.toml."
+    exit 1
+fi
+
+echo "✅ Pre-commit checks passed."

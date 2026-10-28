@@ -1,0 +1,119 @@
+# =========================
+# Xcode / Swift
+# =========================
+
+## User settings
+*.xcuserstate
+xcuserdata/
+
+## Compatibility
+*.xcscmblueprint
+*.xccheckout
+
+## Build generated
+build/
+DerivedData/
+
+## Workspace data
+*.xcworkspace/data
+
+## Xcode project user data
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Other
+*.moved-aside
+
+## Swift / Obj-C artifacts
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+
+# =========================
+# Carthage
+# =========================
+Carthage/Checkouts
+Carthage/Build
+
+# =========================
+# Code Injection
+# =========================
+iOSInjectionProject/
+
+# =========================
+# fastlane
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Environment
+# =========================
+.env
+.env.local
+
+# =========================
+# Modern Xcode additions
+# =========================
+*.xcresult
+*.preview-thumbnails/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Node / JS Tooling
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lockfiles (KEEP THESE TRACKED)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Husky (we KEEP hooks, ignore local state)
+.husky/_/
+
+# Optional caches
+.cache/
+dist/
+coverage/
+
+# =========================
+# Editor / Misc
+# =========================
+
+.vscode/
+.idea/
+
+CHANGELOG.md

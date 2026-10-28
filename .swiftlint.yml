@@ -1,0 +1,75 @@
+included:
+  - Remnant
+
+excluded:
+  - DerivedData
+
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - sorted_imports
+  - closure_spacing
+  - contains_over_filter_count
+  - discouraged_optional_boolean
+  - first_where
+  - force_unwrapping
+  - implicit_return
+  - modifier_order
+  - redundant_nil_coalescing
+  - vertical_whitespace_closing_braces
+  - implicitly_unwrapped_optional
+
+analyzer_rules:
+  - unused_declaration
+
+identifier_name:
+  min_length: 1
+  max_length: 40
+  excluded:
+    - id
+    - URL
+    - x
+    - y
+    - i
+    - j
+
+type_name:
+  min_length: 3
+  max_length: 50
+
+line_length:
+  warning: 100
+  error: 120
+  ignores_comments: true
+  ignores_urls: true
+
+function_body_length:
+  warning: 50
+  error: 80
+
+type_body_length:
+  warning: 200
+  error: 300
+
+file_length:
+  warning: 400
+  error: 600
+
+cyclomatic_complexity:
+  warning: 8
+  error: 12
+
+force_cast: error
+force_try: error
+
+trailing_whitespace:
+  ignores_empty_lines: true
+
+vertical_whitespace:
+  max_empty_lines: 1
+
+disabled_rules:
+  - sorted_imports
+  - todo
+  - switch_case_alignment
+  - opening_brace

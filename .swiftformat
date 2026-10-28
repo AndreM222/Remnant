@@ -1,0 +1,14 @@
+--indent 4
+--linebreaks lf
+--maxwidth 120
+
+--wraparguments before-first
+--wrapcollections before-first
+
+--closingparen balanced
+--callsiteparen balanced
+
+--commas inline
+--trimwhitespace always
+
+--indentcase false

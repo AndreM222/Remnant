@@ -1,0 +1,38 @@
+# typos configuration for Remntant Apple Platform
+# https://github.com/crate-ci/typos
+
+[default]
+extend-ignore-re = [
+    # Ignore hex values
+    "0x[0-9a-fA-F]+",
+    # Ignore UUIDs
+    "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+    # Ignore base64
+    "[A-Za-z0-9+/]{20,}={0,2}",
+]
+
+[files]
+extend-exclude = [
+    # Xcode generated files
+    "DerivedData/",
+    "*.xcodeproj/",
+    "*.xcworkspace/",
+    ".git/",
+    "node_modules/",
+    "CHANGELOG.md",
+
+    # Asset and binary files
+    "*.png",
+    "*.jpg",
+    "*.ico",
+    "*.icon",
+    "*.car",
+    "*.strings",
+
+    # Swift package resolved file
+    "Package.resolved",
+]
+
+[default.extend-words]
+# Project-specific words that are not typos
+# SwiftUI and Apple framework terms

@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6533D9E0308A910F00695592 /* Remnant Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6533D9C2308A910D00695592 /* Remnant Watch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65E02FEB3090B79300512542 /* typos.toml in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FEA3090B79300512542 /* typos.toml */; };
+		65E02FF63090B79300512542 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FE73090B79300512542 /* package.json */; };
+		65E02FFA3090B79300512542 /* .editorconfig in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FBA3090B79300512542 /* .editorconfig */; };
+		65E02FFB3090B79300512542 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FBB3090B79300512542 /* .gitattributes */; };
+		65E030003090B79300512542 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FE43090B79300512542 /* .swiftlint.yml */; };
+		65E030013090B79300512542 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FCC3090B79300512542 /* .gitignore */; };
+		65E0300B3090B79300512542 /* commitlint.config.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FE63090B79300512542 /* commitlint.config.mjs */; };
+		65E030103090B79300512542 /* AI_POLICY.md in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FE53090B79300512542 /* AI_POLICY.md */; };
+		65E030133090B79300512542 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 65E02FE33090B79300512542 /* .swiftformat */; };
+		65E030253090B80400512542 /* tests.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E0301E3090B80400512542 /* tests.yml */; };
+		65E030263090B80400512542 /* dependabot.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E030213090B80400512542 /* dependabot.yml */; };
+		65E030273090B80400512542 /* bug_report.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E030183090B80400512542 /* bug_report.yml */; };
+		65E030283090B80400512542 /* pull_request_template.md in Resources */ = {isa = PBXBuildFile; fileRef = 65E030233090B80400512542 /* pull_request_template.md */; };
+		65E030293090B80400512542 /* issue-unvouched-message in Resources */ = {isa = PBXBuildFile; fileRef = 65E030223090B80400512542 /* issue-unvouched-message */; };
+		65E0302C3090B80400512542 /* vouch-request.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E030163090B80400512542 /* vouch-request.yml */; };
+		65E0302D3090B80400512542 /* changelog.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E0301B3090B80400512542 /* changelog.yml */; };
+		65E0302E3090B80400512542 /* ci.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E0301C3090B80400512542 /* ci.yml */; };
+		65E0302F3090B80400512542 /* issue-triage.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E030153090B80400512542 /* issue-triage.yml */; };
+		65E030303090B80400512542 /* feature_request.yml in Resources */ = {isa = PBXBuildFile; fileRef = 65E030193090B80400512542 /* feature_request.yml */; };
+		65E030493090B82800512542 /* post-checkout in Resources */ = {isa = PBXBuildFile; fileRef = 65E030373090B82800512542 /* post-checkout */; };
+		65E0304A3090B82800512542 /* commit-msg in Resources */ = {isa = PBXBuildFile; fileRef = 65E030333090B82800512542 /* commit-msg */; };
+		65E0304B3090B82800512542 /* post-merge in Resources */ = {isa = PBXBuildFile; fileRef = 65E030393090B82800512542 /* post-merge */; };
+		65E0304C3090B82800512542 /* prepare-commit-msg in Resources */ = {isa = PBXBuildFile; fileRef = 65E030413090B82800512542 /* prepare-commit-msg */; };
+		65E0304D3090B82800512542 /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 65E030473090B82800512542 /* setup.sh */; };
+		65E0304E3090B82800512542 /* pre-applypatch in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303B3090B82800512542 /* pre-applypatch */; };
+		65E0304F3090B82800512542 /* husky.sh in Resources */ = {isa = PBXBuildFile; fileRef = 65E030353090B82800512542 /* husky.sh */; };
+		65E030503090B82800512542 /* h in Resources */ = {isa = PBXBuildFile; fileRef = 65E030343090B82800512542 /* h */; };
+		65E030513090B82800512542 /* post-commit in Resources */ = {isa = PBXBuildFile; fileRef = 65E030383090B82800512542 /* post-commit */; };
+		65E030523090B82800512542 /* pre-push in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303F3090B82800512542 /* pre-push */; };
+		65E030533090B82800512542 /* post-applypatch in Resources */ = {isa = PBXBuildFile; fileRef = 65E030363090B82800512542 /* post-applypatch */; };
+		65E030543090B82800512542 /* pr-push in Resources */ = {isa = PBXBuildFile; fileRef = 65E030453090B82800512542 /* pr-push */; };
+		65E030553090B82800512542 /* pre-auto-gc in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303C3090B82800512542 /* pre-auto-gc */; };
+		65E030563090B82800512542 /* pr-commit in Resources */ = {isa = PBXBuildFile; fileRef = 65E030443090B82800512542 /* pr-commit */; };
+		65E030573090B82800512542 /* commit-msg in Resources */ = {isa = PBXBuildFile; fileRef = 65E030433090B82800512542 /* commit-msg */; };
+		65E030583090B82800512542 /* pre-commit in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303D3090B82800512542 /* pre-commit */; };
+		65E030593090B82800512542 /* post-rewrite in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303A3090B82800512542 /* post-rewrite */; };
+		65E0305A3090B82800512542 /* pre-rebase in Resources */ = {isa = PBXBuildFile; fileRef = 65E030403090B82800512542 /* pre-rebase */; };
+		65E0305B3090B82800512542 /* pre-merge-commit in Resources */ = {isa = PBXBuildFile; fileRef = 65E0303E3090B82800512542 /* pre-merge-commit */; };
+		65E0305C3090B82800512542 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65E030313090B82800512542 /* .gitignore */; };
+		65E0305D3090B82800512542 /* applypatch-msg in Resources */ = {isa = PBXBuildFile; fileRef = 65E030323090B82800512542 /* applypatch-msg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6533D994308A88E900695592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6533D97A308A88E800695592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6533D981308A88E800695592;
+			remoteInfo = Remnant;
+		};
+		6533D99E308A88E900695592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6533D97A308A88E800695592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6533D981308A88E800695592;
+			remoteInfo = Remnant;
+		};
+		6533D9CF308A910F00695592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6533D97A308A88E800695592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6533D9C1308A910D00695592;
+			remoteInfo = "Remnant Watch Watch App";
+		};
+		6533D9D9308A910F00695592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6533D97A308A88E800695592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6533D9C1308A910D00695592;
+			remoteInfo = "Remnant Watch Watch App";
+		};
+		6533D9DE308A910F00695592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6533D97A308A88E800695592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6533D9C1308A910D00695592;
+			remoteInfo = "Remnant Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6533D9E4308A910F00695592 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				6533D9E0308A910F00695592 /* Remnant Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6533D982308A88E800695592 /* Remnant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remnant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6533D993308A88E900695592 /* RemnantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemnantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6533D99D308A88E900695592 /* RemnantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemnantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6533D9C2308A910D00695592 /* Remnant Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remnant Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6533D9CE308A910F00695592 /* Remnant Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remnant Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6533D9D8308A910F00695592 /* Remnant Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remnant Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E02FBA3090B79300512542 /* .editorconfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		65E02FBB3090B79300512542 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		65E02FCC3090B79300512542 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65E02FE33090B79300512542 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		65E02FE43090B79300512542 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		65E02FE53090B79300512542 /* AI_POLICY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AI_POLICY.md; sourceTree = "<group>"; };
+		65E02FE63090B79300512542 /* commitlint.config.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = commitlint.config.mjs; sourceTree = "<group>"; };
+		65E02FE73090B79300512542 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		65E02FEA3090B79300512542 /* typos.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = typos.toml; sourceTree = "<group>"; };
+		65E030153090B80400512542 /* issue-triage.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "issue-triage.yml"; sourceTree = "<group>"; };
+		65E030163090B80400512542 /* vouch-request.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "vouch-request.yml"; sourceTree = "<group>"; };
+		65E030183090B80400512542 /* bug_report.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = bug_report.yml; sourceTree = "<group>"; };
+		65E030193090B80400512542 /* feature_request.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = feature_request.yml; sourceTree = "<group>"; };
+		65E0301B3090B80400512542 /* changelog.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = changelog.yml; sourceTree = "<group>"; };
+		65E0301C3090B80400512542 /* ci.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ci.yml; sourceTree = "<group>"; };
+		65E0301E3090B80400512542 /* tests.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = tests.yml; sourceTree = "<group>"; };
+		65E030213090B80400512542 /* dependabot.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = dependabot.yml; sourceTree = "<group>"; };
+		65E030223090B80400512542 /* issue-unvouched-message */ = {isa = PBXFileReference; lastKnownFileType = text; path = "issue-unvouched-message"; sourceTree = "<group>"; };
+		65E030233090B80400512542 /* pull_request_template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pull_request_template.md; sourceTree = "<group>"; };
+		65E030313090B82800512542 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65E030323090B82800512542 /* applypatch-msg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "applypatch-msg"; sourceTree = "<group>"; };
+		65E030333090B82800512542 /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "commit-msg"; sourceTree = "<group>"; };
+		65E030343090B82800512542 /* h */ = {isa = PBXFileReference; lastKnownFileType = text; path = h; sourceTree = "<group>"; };
+		65E030353090B82800512542 /* husky.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = husky.sh; sourceTree = "<group>"; };
+		65E030363090B82800512542 /* post-applypatch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "post-applypatch"; sourceTree = "<group>"; };
+		65E030373090B82800512542 /* post-checkout */ = {isa = PBXFileReference; lastKnownFileType = text; path = "post-checkout"; sourceTree = "<group>"; };
+		65E030383090B82800512542 /* post-commit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "post-commit"; sourceTree = "<group>"; };
+		65E030393090B82800512542 /* post-merge */ = {isa = PBXFileReference; lastKnownFileType = text; path = "post-merge"; sourceTree = "<group>"; };
+		65E0303A3090B82800512542 /* post-rewrite */ = {isa = PBXFileReference; lastKnownFileType = text; path = "post-rewrite"; sourceTree = "<group>"; };
+		65E0303B3090B82800512542 /* pre-applypatch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-applypatch"; sourceTree = "<group>"; };
+		65E0303C3090B82800512542 /* pre-auto-gc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-auto-gc"; sourceTree = "<group>"; };
+		65E0303D3090B82800512542 /* pre-commit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-commit"; sourceTree = "<group>"; };
+		65E0303E3090B82800512542 /* pre-merge-commit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-merge-commit"; sourceTree = "<group>"; };
+		65E0303F3090B82800512542 /* pre-push */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-push"; sourceTree = "<group>"; };
+		65E030403090B82800512542 /* pre-rebase */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pre-rebase"; sourceTree = "<group>"; };
+		65E030413090B82800512542 /* prepare-commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "prepare-commit-msg"; sourceTree = "<group>"; };
+		65E030433090B82800512542 /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "commit-msg"; sourceTree = "<group>"; };
+		65E030443090B82800512542 /* pr-commit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pr-commit"; sourceTree = "<group>"; };
+		65E030453090B82800512542 /* pr-push */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pr-push"; sourceTree = "<group>"; };
+		65E030473090B82800512542 /* setup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6533D9A3308A88E900695592 /* Exceptions for "Remnant" folder in "Remnant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6533D981308A88E800695592 /* Remnant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6533D984308A88E800695592 /* Remnant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6533D9A3308A88E900695592 /* Exceptions for "Remnant" folder in "Remnant" target */,
+			);
+			path = Remnant;
+			sourceTree = "<group>";
+		};
+		6533D996308A88E900695592 /* RemnantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RemnantTests;
+			sourceTree = "<group>";
+		};
+		6533D9A0308A88E900695592 /* RemnantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RemnantUITests;
+			sourceTree = "<group>";
+		};
+		6533D9C3308A910D00695592 /* Remnant Watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remnant Watch Watch App";
+			sourceTree = "<group>";
+		};
+		6533D9D1308A910F00695592 /* Remnant Watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remnant Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6533D9DB308A910F00695592 /* Remnant Watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remnant Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6533D97F308A88E800695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6533D990308A88E900695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6533D99A308A88E900695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6533D9BF308A910D00695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6533D9CB308A910F00695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6533D9D5308A910F00695592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6533D979308A88E800695592 = {
+			isa = PBXGroup;
+			children = (
+				65E030243090B80400512542 /* .github */,
+				65E02FBB3090B79300512542 /* .gitattributes */,
+				65E02FBA3090B79300512542 /* .editorconfig */,
+				65E030463090B82800512542 /* .husky */,
+				65E030483090B82800512542 /* scripts */,
+				65E02FCC3090B79300512542 /* .gitignore */,
+				65E02FE33090B79300512542 /* .swiftformat */,
+				65E02FE43090B79300512542 /* .swiftlint.yml */,
+				65E02FE53090B79300512542 /* AI_POLICY.md */,
+				65E02FE63090B79300512542 /* commitlint.config.mjs */,
+				65E02FE73090B79300512542 /* package.json */,
+				65E02FEA3090B79300512542 /* typos.toml */,
+				6533D984308A88E800695592 /* Remnant */,
+				6533D996308A88E900695592 /* RemnantTests */,
+				6533D9A0308A88E900695592 /* RemnantUITests */,
+				6533D9C3308A910D00695592 /* Remnant Watch Watch App */,
+				6533D9D1308A910F00695592 /* Remnant Watch Watch AppTests */,
+				6533D9DB308A910F00695592 /* Remnant Watch Watch AppUITests */,
+				6533D983308A88E800695592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6533D983308A88E800695592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6533D982308A88E800695592 /* Remnant.app */,
+				6533D993308A88E900695592 /* RemnantTests.xctest */,
+				6533D99D308A88E900695592 /* RemnantUITests.xctest */,
+				6533D9C2308A910D00695592 /* Remnant Watch Watch App.app */,
+				6533D9CE308A910F00695592 /* Remnant Watch Watch AppTests.xctest */,
+				6533D9D8308A910F00695592 /* Remnant Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E030173090B80400512542 /* DISCUSSION_TEMPLATE */ = {
+			isa = PBXGroup;
+			children = (
+				65E030153090B80400512542 /* issue-triage.yml */,
+				65E030163090B80400512542 /* vouch-request.yml */,
+			);
+			path = DISCUSSION_TEMPLATE;
+			sourceTree = "<group>";
+		};
+		65E0301A3090B80400512542 /* ISSUE_TEMPLATE */ = {
+			isa = PBXGroup;
+			children = (
+				65E030183090B80400512542 /* bug_report.yml */,
+				65E030193090B80400512542 /* feature_request.yml */,
+			);
+			path = ISSUE_TEMPLATE;
+			sourceTree = "<group>";
+		};
+		65E030203090B80400512542 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				65E0301B3090B80400512542 /* changelog.yml */,
+				65E0301C3090B80400512542 /* ci.yml */,
+				65E0301E3090B80400512542 /* tests.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		65E030243090B80400512542 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				65E030173090B80400512542 /* DISCUSSION_TEMPLATE */,
+				65E0301A3090B80400512542 /* ISSUE_TEMPLATE */,
+				65E030203090B80400512542 /* workflows */,
+				65E030213090B80400512542 /* dependabot.yml */,
+				65E030223090B80400512542 /* issue-unvouched-message */,
+				65E030233090B80400512542 /* pull_request_template.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		65E030423090B82800512542 /* _ */ = {
+			isa = PBXGroup;
+			children = (
+				65E030313090B82800512542 /* .gitignore */,
+				65E030323090B82800512542 /* applypatch-msg */,
+				65E030333090B82800512542 /* commit-msg */,
+				65E030343090B82800512542 /* h */,
+				65E030353090B82800512542 /* husky.sh */,
+				65E030363090B82800512542 /* post-applypatch */,
+				65E030373090B82800512542 /* post-checkout */,
+				65E030383090B82800512542 /* post-commit */,
+				65E030393090B82800512542 /* post-merge */,
+				65E0303A3090B82800512542 /* post-rewrite */,
+				65E0303B3090B82800512542 /* pre-applypatch */,
+				65E0303C3090B82800512542 /* pre-auto-gc */,
+				65E0303D3090B82800512542 /* pre-commit */,
+				65E0303E3090B82800512542 /* pre-merge-commit */,
+				65E0303F3090B82800512542 /* pre-push */,
+				65E030403090B82800512542 /* pre-rebase */,
+				65E030413090B82800512542 /* prepare-commit-msg */,
+			);
+			path = _;
+			sourceTree = "<group>";
+		};
+		65E030463090B82800512542 /* .husky */ = {
+			isa = PBXGroup;
+			children = (
+				65E030423090B82800512542 /* _ */,
+				65E030433090B82800512542 /* commit-msg */,
+				65E030443090B82800512542 /* pr-commit */,
+				65E030453090B82800512542 /* pr-push */,
+			);
+			path = .husky;
+			sourceTree = "<group>";
+		};
+		65E030483090B82800512542 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				65E030473090B82800512542 /* setup.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6533D981308A88E800695592 /* Remnant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9A4308A88E900695592 /* Build configuration list for PBXNativeTarget "Remnant" */;
+			buildPhases = (
+				6533D97E308A88E800695592 /* Sources */,
+				6533D97F308A88E800695592 /* Frameworks */,
+				6533D980308A88E800695592 /* Resources */,
+				6533D9E4308A910F00695592 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6533D9DF308A910F00695592 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6533D984308A88E800695592 /* Remnant */,
+			);
+			name = Remnant;
+			productName = Remnant;
+			productReference = 6533D982308A88E800695592 /* Remnant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6533D992308A88E900695592 /* RemnantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9A9308A88E900695592 /* Build configuration list for PBXNativeTarget "RemnantTests" */;
+			buildPhases = (
+				6533D98F308A88E900695592 /* Sources */,
+				6533D990308A88E900695592 /* Frameworks */,
+				6533D991308A88E900695592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6533D995308A88E900695592 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6533D996308A88E900695592 /* RemnantTests */,
+			);
+			name = RemnantTests;
+			productName = RemnantTests;
+			productReference = 6533D993308A88E900695592 /* RemnantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6533D99C308A88E900695592 /* RemnantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9AC308A88E900695592 /* Build configuration list for PBXNativeTarget "RemnantUITests" */;
+			buildPhases = (
+				6533D999308A88E900695592 /* Sources */,
+				6533D99A308A88E900695592 /* Frameworks */,
+				6533D99B308A88E900695592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6533D99F308A88E900695592 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6533D9A0308A88E900695592 /* RemnantUITests */,
+			);
+			name = RemnantUITests;
+			productName = RemnantUITests;
+			productReference = 6533D99D308A88E900695592 /* RemnantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6533D9C1308A910D00695592 /* Remnant Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9E1308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch App" */;
+			buildPhases = (
+				6533D9BE308A910D00695592 /* Sources */,
+				6533D9BF308A910D00695592 /* Frameworks */,
+				6533D9C0308A910D00695592 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				6533D9C3308A910D00695592 /* Remnant Watch Watch App */,
+			);
+			name = "Remnant Watch Watch App";
+			productName = "Remnant Watch Watch App";
+			productReference = 6533D9C2308A910D00695592 /* Remnant Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6533D9CD308A910F00695592 /* Remnant Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9E5308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch AppTests" */;
+			buildPhases = (
+				6533D9CA308A910F00695592 /* Sources */,
+				6533D9CB308A910F00695592 /* Frameworks */,
+				6533D9CC308A910F00695592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6533D9D0308A910F00695592 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6533D9D1308A910F00695592 /* Remnant Watch Watch AppTests */,
+			);
+			name = "Remnant Watch Watch AppTests";
+			productName = "Remnant Watch Watch AppTests";
+			productReference = 6533D9CE308A910F00695592 /* Remnant Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6533D9D7308A910F00695592 /* Remnant Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6533D9E8308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch AppUITests" */;
+			buildPhases = (
+				6533D9D4308A910F00695592 /* Sources */,
+				6533D9D5308A910F00695592 /* Frameworks */,
+				6533D9D6308A910F00695592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6533D9DA308A910F00695592 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6533D9DB308A910F00695592 /* Remnant Watch Watch AppUITests */,
+			);
+			name = "Remnant Watch Watch AppUITests";
+			productName = "Remnant Watch Watch AppUITests";
+			productReference = 6533D9D8308A910F00695592 /* Remnant Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6533D97A308A88E800695592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					6533D981308A88E800695592 = {
+						CreatedOnToolsVersion = 27.1;
+						LastSwiftMigration = 2710;
+					};
+					6533D992308A88E900695592 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6533D981308A88E800695592;
+					};
+					6533D99C308A88E900695592 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6533D981308A88E800695592;
+					};
+					6533D9C1308A910D00695592 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					6533D9CD308A910F00695592 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6533D9C1308A910D00695592;
+					};
+					6533D9D7308A910F00695592 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 6533D9C1308A910D00695592;
+					};
+				};
+			};
+			buildConfigurationList = 6533D97D308A88E800695592 /* Build configuration list for PBXProject "Remnant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6533D979308A88E800695592;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6533D983308A88E800695592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6533D981308A88E800695592 /* Remnant */,
+				6533D992308A88E900695592 /* RemnantTests */,
+				6533D99C308A88E900695592 /* RemnantUITests */,
+				6533D9C1308A910D00695592 /* Remnant Watch Watch App */,
+				6533D9CD308A910F00695592 /* Remnant Watch Watch AppTests */,
+				6533D9D7308A910F00695592 /* Remnant Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6533D980308A88E800695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				65E02FEB3090B79300512542 /* typos.toml in Resources */,
+				65E02FF63090B79300512542 /* package.json in Resources */,
+				65E02FFA3090B79300512542 /* .editorconfig in Resources */,
+				65E02FFB3090B79300512542 /* .gitattributes in Resources */,
+				65E030003090B79300512542 /* .swiftlint.yml in Resources */,
+				65E030013090B79300512542 /* .gitignore in Resources */,
+				65E0300B3090B79300512542 /* commitlint.config.mjs in Resources */,
+				65E030103090B79300512542 /* AI_POLICY.md in Resources */,
+				65E030133090B79300512542 /* .swiftformat in Resources */,
+				65E030253090B80400512542 /* tests.yml in Resources */,
+				65E030263090B80400512542 /* dependabot.yml in Resources */,
+				65E030273090B80400512542 /* bug_report.yml in Resources */,
+				65E030283090B80400512542 /* pull_request_template.md in Resources */,
+				65E030293090B80400512542 /* issue-unvouched-message in Resources */,
+				65E0302C3090B80400512542 /* vouch-request.yml in Resources */,
+				65E0302D3090B80400512542 /* changelog.yml in Resources */,
+				65E030493090B82800512542 /* post-checkout in Resources */,
+				65E0304A3090B82800512542 /* commit-msg in Resources */,
+				65E0304B3090B82800512542 /* post-merge in Resources */,
+				65E0304C3090B82800512542 /* prepare-commit-msg in Resources */,
+				65E0304D3090B82800512542 /* setup.sh in Resources */,
+				65E0304E3090B82800512542 /* pre-applypatch in Resources */,
+				65E0304F3090B82800512542 /* husky.sh in Resources */,
+				65E030503090B82800512542 /* h in Resources */,
+				65E030513090B82800512542 /* post-commit in Resources */,
+				65E030523090B82800512542 /* pre-push in Resources */,
+				65E030533090B82800512542 /* post-applypatch in Resources */,
+				65E030543090B82800512542 /* pr-push in Resources */,
+				65E030553090B82800512542 /* pre-auto-gc in Resources */,
+				65E030563090B82800512542 /* pr-commit in Resources */,
+				65E030573090B82800512542 /* commit-msg in Resources */,
+				65E030583090B82800512542 /* pre-commit in Resources */,
+				65E030593090B82800512542 /* post-rewrite in Resources */,
+				65E0305A3090B82800512542 /* pre-rebase in Resources */,
+				65E0305B3090B82800512542 /* pre-merge-commit in Resources */,
+				65E0305C3090B82800512542 /* .gitignore in Resources */,
+				65E0305D3090B82800512542 /* applypatch-msg in Resources */,
+				65E0302E3090B80400512542 /* ci.yml in Resources */,
+				65E0302F3090B80400512542 /* issue-triage.yml in Resources */,
+				65E030303090B80400512542 /* feature_request.yml in Resources */,
+			);
+		};
+		6533D991308A88E900695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D99B308A88E900695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9C0308A910D00695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9CC308A910F00695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9D6308A910F00695592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6533D97E308A88E800695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D98F308A88E900695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D999308A88E900695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9BE308A910D00695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9CA308A910F00695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6533D9D4308A910F00695592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6533D995308A88E900695592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6533D981308A88E800695592 /* Remnant */;
+			targetProxy = 6533D994308A88E900695592 /* PBXContainerItemProxy */;
+		};
+		6533D99F308A88E900695592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6533D981308A88E800695592 /* Remnant */;
+			targetProxy = 6533D99E308A88E900695592 /* PBXContainerItemProxy */;
+		};
+		6533D9D0308A910F00695592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6533D9C1308A910D00695592 /* Remnant Watch Watch App */;
+			targetProxy = 6533D9CF308A910F00695592 /* PBXContainerItemProxy */;
+		};
+		6533D9DA308A910F00695592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6533D9C1308A910D00695592 /* Remnant Watch Watch App */;
+			targetProxy = 6533D9D9308A910F00695592 /* PBXContainerItemProxy */;
+		};
+		6533D9DF308A910F00695592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6533D9C1308A910D00695592 /* Remnant Watch Watch App */;
+			targetProxy = 6533D9DE308A910F00695592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6533D9A5308A88E900695592 /* Debug configuration for PBXNativeTarget "Remnant" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Remnant/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9A6308A88E900695592 /* Release configuration for PBXNativeTarget "Remnant" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Remnant/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		6533D9A7308A88E900695592 /* Debug configuration for PBXProject "Remnant" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6533D9A8308A88E900695592 /* Release configuration for PBXProject "Remnant" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6533D9AA308A88E900695592 /* Debug configuration for PBXNativeTarget "RemnantTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.RemnantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remnant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remnant";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9AB308A88E900695592 /* Release configuration for PBXNativeTarget "RemnantTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.RemnantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remnant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remnant";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		6533D9AD308A88E900695592 /* Debug configuration for PBXNativeTarget "RemnantUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.RemnantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Remnant;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9AE308A88E900695592 /* Release configuration for PBXNativeTarget "RemnantUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.RemnantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Remnant;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		6533D9E2308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remnant Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Net-Runner.Remnant";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9E3308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remnant Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Net-Runner.Remnant";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		6533D9E6308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remnant Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remnant Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9E7308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remnant Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remnant Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		6533D9E9308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Remnant Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		6533D9EA308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LGC95UL92U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Net-Runner.Remnant-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Remnant Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6533D97D308A88E800695592 /* Build configuration list for PBXProject "Remnant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9A7308A88E900695592 /* Debug configuration for PBXProject "Remnant" */,
+				6533D9A8308A88E900695592 /* Release configuration for PBXProject "Remnant" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9A4308A88E900695592 /* Build configuration list for PBXNativeTarget "Remnant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9A5308A88E900695592 /* Debug configuration for PBXNativeTarget "Remnant" */,
+				6533D9A6308A88E900695592 /* Release configuration for PBXNativeTarget "Remnant" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9A9308A88E900695592 /* Build configuration list for PBXNativeTarget "RemnantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9AA308A88E900695592 /* Debug configuration for PBXNativeTarget "RemnantTests" */,
+				6533D9AB308A88E900695592 /* Release configuration for PBXNativeTarget "RemnantTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9AC308A88E900695592 /* Build configuration list for PBXNativeTarget "RemnantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9AD308A88E900695592 /* Debug configuration for PBXNativeTarget "RemnantUITests" */,
+				6533D9AE308A88E900695592 /* Release configuration for PBXNativeTarget "RemnantUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9E1308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9E2308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch App" */,
+				6533D9E3308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9E5308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9E6308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch AppTests" */,
+				6533D9E7308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6533D9E8308A910F00695592 /* Build configuration list for PBXNativeTarget "Remnant Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6533D9E9308A910F00695592 /* Debug configuration for PBXNativeTarget "Remnant Watch Watch AppUITests" */,
+				6533D9EA308A910F00695592 /* Release configuration for PBXNativeTarget "Remnant Watch Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6533D97A308A88E800695592 /* Project object */;
+	validationLevel = 1;
+}
